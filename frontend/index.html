@@ -1,99 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--font-awesome cdn link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <!--font-awesome cdn link-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--boxicon cdn-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
 
-      <!--bootstrap cdn links-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--bootstrap cdn links-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
 
-
-    <title>ezeken portfolio</title>
-    
-</head>
- <body>
-
-        <!--navbar start-->
-    <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid pt-0 pb-0">
-          <a class="navbar-brand text-light fs-5" href="#">
-            Ezeken
-          </a>
-          <button class="navbar-toggler -light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontentlist" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon toggler-icon-light"></span>
-          </button>
-
-          <div class="collapse navbar-collapse " id="navbarcontentlist">      
-            <ul class="navbar-nav ms-auto mb-2">
-            
-
-              <li class="nav-item me-3" >
-                <a class="nav-link text-light fs-5" href="#"> Home </a>
-              </li>
-
-              <li class="nav-item me-3" >
-                <a class="nav-link text-light fs-5" href="#"> services </a>
-                
-              </li>
-
-              <li class="nav-item me-3">
-
-                <a class="nav-link text-light fs-5" href="#"> About me </a>
-                            
-              </li>
-
-              <li class="nav-item me-5">
-
-                <a class="nav-link text-light fs-5" href="#">Contact me </a>
-             
-              </li>
-
-            </ul>
-            <form class="d-flex me-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-dark" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-      <!--navbar-->
-
-      <div class="container text-center">
-        <div class="row ">
-
-         <div class="col mb-5 rounded-pill">
-           <img src="homeheader.JPG" alt="homeheader" class="rounded-pill" >
-         </div>
-
-         <div class="col my-auto">
-          <div class="container-fluid text-center">
-            <div>
-              <p class="fs-1">Hi , I AM EZE KENNETH</p>
-              <p>A Full stack developer</p>
-            </div>
-
-            <div>
-              <a class="btn mt-3" href="#">
-                <button class="btn btn-outline-success">
-                  Connect with me
-                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      <title>ezeken portfolio</title>
+      
+  </head>
+  <body>
+        <header>
+              <!--navbar start-->
+          <nav class="navbar navbar-expand-lg bg-danger">
+              <div class="container-fluid pt-0 pb-0">
+                   <div class="row">  
+                     <a class="text-light fs-5" href="#">
+                       <b>E</b>zeken
+                      </a>
+                    </div>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontentlist" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon toggler-icon-light"></span>
                 </button>
-               </a>
-            </div>
-            
-          </div>
 
-         </div>
+                <div class="collapse navbar-collapse " id="navbarcontentlist">      
+                  <ul class="navbar-nav ms-auto mb-2">
+                  
+
+                    <li class="nav-item me-3" >
+                      <a class="nav-link text-light fs-5" href="#"> Home </a>
+                    </li>
+
+                    <li class="nav-item me-3" >
+                      <a class="nav-link text-light fs-5" href="#"> services </a>
+                      
+                    </li>
+
+                    <li class="nav-item me-3">
+
+                      <a class="nav-link text-light fs-5" href="#"> About me </a>
+                                  
+                    </li>
+
+                    <li class="nav-item me-5">
+
+                      <a class="nav-link text-light fs-5" href="#">Contact me </a>
+                  
+                    </li>
+
+                  </ul>
+                  <form class="d-flex me-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+        </header>
+              <!--navbar end-->
+      <main>
+
+
+        <!-----------section 1---------->
+        <section>
+
+          <div class="container text-center">
+              <div class="row mx-auto ">
+
+                    <div class="col-sm-12 col-md-6 mb-5 rounded-pill">
+                      <img src="images/homeheader.JPG" height="100%" width="100%"  alt="homeheader" class="rounded-pill" >
+                    </div>
+
+                  <div class="col-sm-12 col-md-6 my-auto">
+                      <div class="container-fluid text-center">
+                        <div id="mynameandskill">
+                          <p class="fs-1 fw-bolder">Hi , I AM EZE KENNETH</p>
+                          <p class="fs-5">A Full stack developer</p>
+                        </div>
+
+                        <div>
+                          <a class="btn mt-3" href="#">
+                              <button class="btn btn-outline-danger">
+                                  Connect with me
+                                <i class="fa fa-arrow-right fw-bolder" aria-hidden="true"></i>
+                              </button>
+                          </a>
+                        </div>
+                      </div>
+                   </div>
+               </div>
+            </div> 
+          </section>
+
+           <!-----------section 2---------->
+
+          <section>
+            
+            <div class="container-fluid bg-light my-5">
+              <div class="container-fluid text-center fs-1 fw-bolder">Services</div>
+              <div class="row mx-auto">
+
+                     <!--col 1-->
+                     <div class=" col-md-6 col-lg-4">
+                      <div class="card bg-dark rounded-5 p-4 m-1">
+                        <div class="container-fluid text-light mb-3 text-center fw-bolder">Web development</div>
+                        <p class="text-light fst-italic mt-2">Progress Rate:</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped bg-success fw-bold" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+    
+                          <div class="mt-4">                                                  
+                            <h6 class="text-light">Year of Experience: <span class="badge bg-info">3 Years</span></h6>
+                            <h6 class=" pt-2 text-light">Project Done: <span class="badge bg-info">45 + projects</span></h6>
+                          </div>
+    
+                          <div class="container-fluid">
+                            <button type="button" class="btn btn-danger mt-4" data-bs-toggle="collapse" data-bs-target="#service1">Read More <i class="fa fa-arrow-down fw-bolder" aria-hidden="true"></i></button>
+                            <div id="service1" class="collapse text-light">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+                      <!--clo 1 end-->
+
+                      <!--clo 2 end-->
+
+                <div class=" col-md-6 col-lg-4">
+                  <div class="card bg-dark rounded-5 p-4 m-1">
+                    <div class="container-fluid text-light mb-3 text-center fw-bolder">Photographer</div>
+                    <p class="text-light fst-italic mt-2">Progress Rate:</p>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped bg-success fw-bold" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+
+                      <div class="mt-4">                                                  
+                        <h6 class="text-light">Year of Experience: <span class="badge bg-info">4 Years</span></h6>
+                        <h6 class=" pt-2 text-light">Project Done: <span class="badge bg-info">30+ projects</span></h6>
+                      </div>
+
+                      <div class="container-fluid">
+                        <button type="button" class="btn btn-danger mt-4" data-bs-toggle="collapse" data-bs-target="#skill2">Read More <i class="fa fa-arrow-down fw-bolder" aria-hidden="true"></i></button>
+                        <div id="skill2" class="collapse text-light">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!--clo 2 end-->
+
+                <!--clo 3 end-->
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="card bg-dark rounded-5 p-4 m-1">
+                    <div class="container-fluid text-light mb-3 text-center fw-bolder">UI designer</div>
+                    <p class="text-light fst-italic mt-2">Progress Rate:</p>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped bg-success fw-bold" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+
+                    <div class="mt-4">                                                  
+                      <h6 class="text-light">Year of Experience: <span class="badge bg-info">4 Years</span></h6>
+                      <h6 class=" pt-2 text-light">Project Done: <span class="badge bg-info">30+ projects</span></h6>
+                    </div>
+
+                      <div class="container-fluid">
+                        <button type="button" class="btn btn-danger mt-4" data-bs-toggle="collapse" data-bs-target="#skill3">Read More <i class="fa fa-arrow-down fw-bolder" aria-hidden="true"></i></button>
+                        <div id="skill3" class="collapse text-light">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!--clo 1 end-->
+
+          </section>
+
+          <!-----------section 4(about me)---------->
+          <section>
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="container-fluid text-center fs-1 fw-bolder">About me</div>
+                <div class="col-sm-3 ">
+                  <img src="./images/homeheader.JPG" class="img-fluid rounded-pill" alt="">
+                </div>
+                <div class="col-sm-9">
+                 
+                  <div class="container-fluid pt-5 fw-bold">
+                    <p>i am an accomplished web developer with a passion for crafting exceptional online experiences. Her proficiency in various programming languages, creative design skills, and attention to detail make her a valuable asset.always dedicated to turning clients' visions into functional, visually appealing websites that stand out in the digital landscape.</p>
+                    <button type="button" class="btn btn-danger mt-4">Read More <i class="fa fa-arrow-down fw-bolder" aria-hidden="true"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        <!-----------section 4 blog ---------->
+          <section>
+
+            <div class="container-fluid bg-light my-5">
+              <div class="container-fluid text-center fs-1 fw-bolder">Blog</div>
+              <div class="row mx-auto mt-3">
+                      <div class=" col-md-6 col-lg-4">
+                        <div class="card shadow-lg m-1">
+                          <img class="card-img-top" src="images/blog1.jpg" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                            <h4 class="card-title">Best programming language to learn</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                            <a href="#" class="btn btn-danger">See Profile</a>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                <div class=" col-md-6 col-lg-4">
+                  <div class="card shadow-lg m-1">
+                    <img class="card-img-top" src="images/blog2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">what is javascript</h4>
+                      <p class="card-text">Some example text some example text.you are an architect and engineer</p>
+                      <a href="#" class="btn btn-danger">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="card shadow-lg m-1">
+                    <img class="card-img-top" src="images/blog3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">all about nodejs</h4>
+                      <p class="card-text">Some example text some example text. you are an architect and engineer</p>
+                      <a href="#" class="btn btn-danger">See Profile</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <!--section 4-->
+
+           <section>
+                <div class="container-fluid">
+
+                    <div class="row">
+                      <p class="fw-bold fs-2 text-center">Contact Me</p>
+                      <div class="col-sm-12 col-md-6 p-5 bg-dark">
+
+                        <!--contact form-->
+                        <div class="form">
+                           
+                           <div class="row">
+                             <div class="col-md-6 col-lg-6 mt-3">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Full name">
+                                    </div>
+                              </div>
+                              <div class="col-md-6 col-lg-6 my-3">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                              </div>
+                                
+                           </div>
+
+
+                          
+                          <textarea class="form-control" rows="5" id="message" placeholder="message" name="text"></textarea>
+                          <div class="">
+                              <button class="btn btn-danger my-3 align-self-end">
+                                Send <i class='bx bxs-send' ></i>
+                            </button>
+                          </div>
+
+                        </div>
+
+                        
+                      </div>
+
+                      <div class="col-md-6 p-5 bg-dark">
+                          <div class="row">
+                            <!--col 1 phone number-->
+                              <div class="col-sm-6 col-md-6 text-center pt-5">
+                                <i class='bx bxs-phone-call bx-lg bx-tada' style="color: #f8f4f4;"></i>
+                                <P><i class='bx bxs-down-arrow-circle bx-fade-down bx-sm' style='color:#006600' ></i></P>
+                              
+                                <p class="fw-bolder text-light">+2349035779656</p>
+
+                              </div>
+                              <!--col2 email-->
+                              <div class="col-sm-6 col-md-6 text-center pt-5">
+                                <i class='bx bx-envelope bx-lg bx-tada' style='color:#f8f4f4' ></i>
+                                <P><i class='bx bxs-down-arrow-circle bx-fade-down bx-sm' style='color:#006600' ></i></P>
+                              
+                                <p class="fw-bolder text-light">Ezekenny91@gmail.com</p>
+
+                              </div>
+
+                          </div>
+                      </div>
+
+                    </div>
+                </div>
+          </section>
+
+      </main>
+      <footer>
+        <div class="container-fluid bg-danger p-3 text-center">
+        
+          <p class="fw-bold text-light">©Ezeken. All Right Reserved</p>
 
         </div>
-      </div>
-    
- </body>
 
-</body>
+      </footer>
+      
+  </body>
+
+ 
 </html>
